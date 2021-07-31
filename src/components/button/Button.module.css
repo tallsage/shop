@@ -1,0 +1,15 @@
+.button{
+    border: 3px solid #218294;
+    font-size: 30px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    cursor: pointer;
+}
