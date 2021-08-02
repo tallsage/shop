@@ -1,0 +1,17 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    height: 100%;
+}
+
+.phone{
+    background-color: blue;
+}
+
+.pic{
+    grid-column: 2/4;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://www.karusel-tv.ru/media/suit/preview_full/media/image/2020/03/1584048729749041_624_1.jpg');
+}
