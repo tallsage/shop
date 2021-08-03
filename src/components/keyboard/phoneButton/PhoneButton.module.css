@@ -1,0 +1,26 @@
+.PhoneButton{
+    background: #6b65e0;
+    display: flex;
+    border: 5px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    font-size: 24px;
+    color: whitesmoke;
+    height: 25%;
+    min-width: 25%;
+}
+
+.PhoneButton[data-size='2']{
+    height: 40%;
+}
+
+.PhoneButton[data-value='null']{
+    pointer-events: none;
+}
+
+.PhoneButton:hover{
+    background: #7e7acc;
+    cursor: default;
+}

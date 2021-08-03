@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  height: 705px; 
-  /* высоту можно поменять на 720, но для большей красоты отсавил 705 */
+  height: 720px;
   width: 1280px;
   margin-left: auto;
   margin-right: auto;

@@ -9,7 +9,6 @@ const SecondFrame = (props) =>{
                 <Keyboard/>
             </div>
             <div className={s.pic}>
-            
             </div>
         </div>
     )
