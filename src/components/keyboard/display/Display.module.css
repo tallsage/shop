@@ -3,7 +3,11 @@
     justify-content: flex-start;
     align-items: center;
     background: #6b65e0;
-    height: 35%;
+    height: 30%;
     color: black;
-    font-size: 24px;
+    font-size: 40px;
+}
+
+.message{
+    margin-left: 2000px;
 }

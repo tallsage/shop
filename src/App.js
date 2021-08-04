@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, setState } from "react";
-import {BrowserRouter, Route} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import FirstFrame from './components/firstFrame/FirstFrame'
 import SecondFrame from './components/secondFrame/SecondFrame';
 

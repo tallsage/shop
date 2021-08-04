@@ -1,22 +1,18 @@
-.PhoneButton{
+.CompliteButton{
     background: #6b65e0;
     display: flex;
     border: 5px solid rgba(0,0,0,0.05);
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    width: 33.33%;
+    width: 100%;
     font-size: 28px;
     color: whitesmoke;
     height: 25%;
     min-width: 25%;
 }
 
-.PhoneButton[data-value='null']{
-    pointer-events: none;
-}
-
-.PhoneButton:hover{
+.CompliteButton:hover{
     background: #7e7acc;
     cursor: default;
 }

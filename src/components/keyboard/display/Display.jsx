@@ -4,7 +4,7 @@ import s from './Display.module.css'
 const Display = (props) =>{
     return(
         <div className={s.Display}>
-            {props.data}
+                {(props.data.length == 0) ? ('ВВЕДИТЕ НОМЕР ТЕЛЕФОНА') : (props.data)}
         </div>
     )
 }
